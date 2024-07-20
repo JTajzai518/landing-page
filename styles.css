@@ -112,3 +112,34 @@
 .box-img {
     border-radius: 2px;
 }
+
+.box-main {
+    height: 500px;
+    margin-top: 150px;
+}
+
+/* QUOTE */
+
+.quote-box {
+    height: 450px;
+    background-color: #EFB11D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 2rem;
+}
+
+div.relative {
+    position: relative;
+    top: 90px;
+    right: 75px;
+}
+
+.relative p {
+    font-size: 1.5rem;
+}
+
+/* SIGN UP */
