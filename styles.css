@@ -50,6 +50,15 @@
 .hero-title {
     font-size: 3rem;
     margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hero-subtext {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .sign-up {
@@ -82,6 +91,9 @@
     margin: 50px 0px;
     font-size: 2.5rem;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .box:active {
@@ -107,6 +119,9 @@
 .box-text {
     font-size: 25px;
     margin-top: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .box-img {
@@ -130,6 +145,9 @@
 
 .quote {
     font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 div.relative {
@@ -151,7 +169,7 @@ div.relative {
     align-items: center;
 }
 
-.bk-gray {
+.bk-color {
     background-color: #D6536D;
     height: 120px;
     width: 700px;
@@ -173,10 +191,22 @@ div.relative {
     margin-left: 5%;
 }
 
+.su-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.su-subtext {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 .su-button {
     border: 0;
     padding: 10px 25px;
-    background-color: #E43D12;
+    background-color: rgb(28, 28, 184);
     color: white;
     box-shadow: 2px 2px black;
     border-radius: 10px;
@@ -200,4 +230,10 @@ div.relative {
     justify-content: center;
     align-items: center;
     height: 100px;
+}
+
+.footer-box>p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
