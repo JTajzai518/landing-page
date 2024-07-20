@@ -143,3 +143,61 @@ div.relative {
 }
 
 /* SIGN UP */
+
+.bk-white {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bk-gray {
+    background-color: #D6536D;
+    height: 120px;
+    width: 700px;
+    display: flex;
+}
+
+.su-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    padding: 0 50px;
+}
+
+.su-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.su-button {
+    border: 0;
+    padding: 10px 25px;
+    background-color: #E43D12;
+    color: white;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.su-button:active {
+    transform: translateY(2px);
+    background-color: black;
+}
+
+/* FOOTER */
+
+.footer-container {
+    background: #d4d3ce;
+    height: 100px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
